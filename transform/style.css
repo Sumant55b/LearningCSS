@@ -1,0 +1,16 @@
+.box{
+    background-color: aqua;
+    /* first value: for x-axis, second value: for y-axis*/
+    transform: translate(100px, 50px);
+ 
+    /* to rotate +ve for clock wise & -ve for anti-clock wise */
+    transform: rotate(45deg);
+
+    /* Scaling: first value as on x-axis, 2nd value as y-axis */
+    /* it can also take decimal value  */
+    /* some properties is : scaleX(), scaleY()*/
+    transform: scale(1,5);
+
+    
+    transform: skew(45deg);
+}
