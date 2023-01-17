@@ -1,0 +1,32 @@
+/* text shadow */
+/* if we put -ve value it makes shadow onto top-left */
+h1{
+    /* 
+    1 - horizantal
+    2 - vertical
+    color
+     */
+    text-shadow: 1px 3px red;
+
+    /* can use double shadow,color */
+    text-shadow: 1px 3px red,2px 2px green; 
+}
+
+/* box shadow */
+.box{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+    color: black;
+
+    /* by default text color will be shadow color */
+    box-shadow: 5px 5px;
+
+    /* manuall color */
+    box-shadow: 5px 5px pink;
+
+    /* here, also can multi shadow, color */
+
+}
