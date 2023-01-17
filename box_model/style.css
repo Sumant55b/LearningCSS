@@ -1,0 +1,62 @@
+#box1{
+    width: 250px;
+    height: 100px;
+    margin: 2px;
+    background: orange;
+    border: 1px solid black;
+}
+#box2{
+    width: 250px;
+    height: 100px;
+    margin: 2px;
+    background: white;
+    border: 1px solid black
+}
+#box3{
+    width: 250px;
+    height: 100px;
+    margin: 2px;
+    background: green;
+    border: 1px solid black
+}
+
+/*
+padding add karne se ho sakta hai bos ka size bara ho jaye to 
+us jagah pe ( box-sizing:boz-border) isko use karke fix kar sakte hai. 
+ */
+/* ----------------------------------------------------------- */
+.boxR{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 10px
+}
+#boxR1{
+    background-color: red;
+    border-radius: 0  0 0 8px;
+}
+#boxR2{
+    background-color: green;
+    border-radius: 0  0 8px 0;
+}
+#boxR3{
+    background-color: blue;
+    border-radius: 0  8px 0 0;
+}
+#boxR4{
+    background-color: brown;
+    border-radius: 8px 0 0 0;
+}
+#boxR5{
+    background-color: aqua;
+    border-radius: 8px 0;
+}
+#boxR6{
+    background-color: yellowgreen;
+    border-radius: 0 8px;
+}
+#boxR7{
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+}
