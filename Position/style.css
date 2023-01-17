@@ -1,0 +1,40 @@
+p{
+    position: static;  /*will do nothing coz of it is default property.*/
+}
+
+/* relative position work*/
+.box{
+    border: 1px solid black;
+    width: 100px;
+    height: 80px;
+    /* display: inline;          --explore*/
+    /* all box wil come in one line */
+    display: inline-block;  
+    background-color: aqua;
+}
+/* relative dedicated */
+#box3{
+    position: relative;
+    position: absolute;   /*position takes from paresnt static element*/
+    position: sticky;   /*almost work as fixed, there is very small difference*/
+    top: -40px;
+    right: -40px;
+}
+
+/* Fixed position work*/
+.wrapper{
+    width: 100vw;
+    height: 300px;
+    background-color: yellow;
+}
+.boxF{
+    border: 1px solid black;
+    width: 100px;
+    height: 80px;
+    display: inline-block;  
+    background-color: aqua;
+}
+/* Fixed dedicated */
+#boxF1{
+    position: fixed;
+}
