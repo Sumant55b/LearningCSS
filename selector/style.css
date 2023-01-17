@@ -1,0 +1,24 @@
+/* universal selector  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* id selector */
+#first{
+    color: red;
+}
+/* class selector */
+.second{
+    color:brown;
+}
+/* tag selector */
+h1{
+    color: aqua;
+}
+
+/* pseudo selector */
+/* can use id, class */
+button:hover{
+   background-color: green;
+}
