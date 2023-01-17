@@ -1,0 +1,56 @@
+/* Do un-coment to check all of these property */
+/* linear gradient */
+.box{
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid black;
+    /* top to down - red-to-blue - by default */
+    background-image: linear-gradient(Red, blue); 
+
+    /* for left to right: red-to-blue */
+    background-image: linear-gradient(to right,Red, blue);
+
+    /* for  right to left: red-to-blue */
+    background-image: linear-gradient(to left,Red, blue);
+
+    /* for bottom  to top: red-to-blue */
+    background-image: linear-gradient(to top,Red, blue);
+
+    /* for diagonal: red-to-blue */
+    background-image: linear-gradient(to right top,Red, blue); 
+    
+    /* for diagonal: red-to-blue */
+    background-image: linear-gradient(to right bottom,Red, blue);
+
+    /* for diagonal: red-to-blue */
+    background-image: linear-gradient(to left bottom ,Red, blue); 
+     
+    /* for diagonal: red-to-blue */
+    background-image: linear-gradient(to left top,Red, blue);
+
+    /* angle and multicolor */
+    background-image: linear-gradient(-70deg,Red, blue, green,orange);   
+
+    /* angle and multicolor */
+    background-image: linear-gradient(70deg,Red, blue, green,orange);   
+
+
+    background-image: linear-gradient(orange,white, green);
+
+    /* we can use also transparency using rgb color */
+}
+
+/* Radial-gradient */
+.box2{
+    margin: 10px;
+    width: 200px;
+    height: 400px;
+    border: 1px solid black;
+    background-image: radial-gradient(orange,green);
+    /* multicolor with shape */
+    background-image: radial-gradient(circle,orange,green, red);
+
+    /* multicolor with percentage */
+    background-image: radial-gradient( circle,orange 20%,white 40%, green 30%);
+}
